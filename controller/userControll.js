@@ -79,17 +79,6 @@ const getUser = async (req, res) => { //login user
 
 
 
-// const deletUser = async (req, res) => {
-//     try {
-//         console.log(req.params.id);
-//         const user = await User.findByIdAndDelete(req.params.id)
-//         console.log("user delet");
-//     } catch (error) {
-//         console.log(error);
-//     }
-// }
-
-
 const userTasks = async (req, res) => {  // to get the question of user
     console.log(req.params.id)
     try {
